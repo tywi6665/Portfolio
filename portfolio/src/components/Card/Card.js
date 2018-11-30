@@ -1,26 +1,18 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import "./Card.scss";
 import Container from "../Container";
 
 class Card extends Component {
 
     state = {
-        thumbnails: ["https://images.unsplash.com/reserve/E5CwLOxQSFimIXJurfpq_IMG_6424%20(1).jpg?dpr=2&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb",'https://images.unsplash.com/photo-1464054313797-e27fb58e90a9?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=996&q=80']
+        thumbnails: ["https://images.unsplash.com/reserve/E5CwLOxQSFimIXJurfpq_IMG_6424%20(1).jpg?dpr=2&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb",
+                     'https://images.unsplash.com/photo-1464054313797-e27fb58e90a9?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=996&q=80',
+                     'https://images.unsplash.com/photo-1422393462206-207b0fbd8d6b?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80']
     }
-
-    // expand = event => {
-    //     event.preventDefault();
-    //     const wrapper = document.getElementsByClassName("wrapper");
-    //     console.log(wrapper);
-    //     wrapper[0].classList.toggle("open")
-    //     const content = document.getElementsByClassName("content");
-    //     console.log(content);
-    //     content[0].classList.toggle("open");
-    // }
 
     render() {
         return (
-            <Container>
+            <div className="container">
                 {this.state.thumbnails.map(thumbnail => (
                     <div  className="wrapper">
                         <div className="tile">
@@ -38,7 +30,7 @@ class Card extends Component {
                         </div>
                     </div>
                 ))}
-            </Container>
+            </div>
         )
     }
 

@@ -7,9 +7,9 @@ class Projects extends Component {
 
     render() {
         return (
-            <Container>
+            
                 <Card />
-            </Container>
+            
         )
     }
 
