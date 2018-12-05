@@ -2,12 +2,13 @@
 
 $width: 100%;
 
+
 //--------------- Global Variables ---------------//
 
 
 //--------------- Nav Bar ---------------//
 body {
-    background-color: #18191b;
+    background-color: #fbf9fa;
 }
 
 Nav {
@@ -17,7 +18,7 @@ Nav {
     top: 0;
     width: 80px;
     height: 100%;
-    background-color: gray;
+    background-color: #fd0054;
 }
 
 ul {
@@ -32,12 +33,34 @@ li {
 }
 
 li:first-child {
-    padding-top: 200%;
+    margin-top: 200%;
 }
+
+// li:hover {
+//     background-color: #a80038;
+//     transition: all 0.4s ease-in;
+// }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+Nav li::before {
+    content: "";
+    display: block;
+    height: 15px;
+    // border-radius: 10px;
+    width: 100%;
+    background-color: #a80038;
+    // position: absolute;
+    // top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+Nav li:hover::before {
+    width: 100%;
 }
 
 //--------------- Nav Bar ---------------//
