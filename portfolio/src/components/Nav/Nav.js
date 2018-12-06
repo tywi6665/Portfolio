@@ -10,7 +10,7 @@ library.add(fab, fas);
 
 const Nav = () => (
     <nav>
-        <ul>
+        <ul className="navList">
             <li><Link to={"/main"}>About
                     {/* <span><FontAwesomeIcon icon={["fas", "code"]} size="4x"/></span> */}
                 </Link>
