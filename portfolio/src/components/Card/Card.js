@@ -20,9 +20,9 @@ class Card extends Component {
                 link1: "https://github.com/tywi6665/Project-3"
             }, {
                 url:"./images/photo2.jpg",
-                h1: "Project 2",
-                h2: "I've got a long way to go!",
-                p: "A React based web application that utilizes custom designed D3.js elements and animations to generate and analyze images based on specified color and existing color palettes.",
+                h1: "Clicky-Game",
+                h2: "A click game that boldly goes where no one has been before!",
+                p: "A React based game that tests the users memory skills and knowledge of Star Trek characters.",
                 icons1: ["fab", "react"],
                 icons2: ["fab", "node"],
                 icons3: ["fab", "aws"]
