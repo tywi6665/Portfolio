@@ -1,11 +1,25 @@
-ul {
-    list-style-type: none;
+.image {
+    float: left;
+    margin: 0 15px 0 0;
 }
 
-.images {
-    float: left;
+h3 {
+    margin-top: 0;
+}
+
+.text {
+    display: block;
 }
 
 .icon {
     margin-left: 6%;
+}
+
+.unordered {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    overflow: auto;
 }
