@@ -15,7 +15,7 @@ class Main extends Component {
     state = {
         snippets: [{
             img: "https://loremflickr.com/100/100?random=1",
-            heading: "I've got a long way to go!",
+            heading: "Professional Experience",
             text: "Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb. My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?"
         }, {
             img: "https://loremflickr.com/100/100?random=1",
@@ -37,15 +37,14 @@ class Main extends Component {
             <Container>
                 <TextBox>
                     <h1 className="name">Tyler Winstead</h1>
-                    <h2>Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb.
-                        My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?</h2>
+                    <h2 className="statement">Recent University of Denver Coding Bootcamp graduate, and aspiring front-end web developer. Combines engineering background and knowhow with newfound MERN skillset in full-stack web development. Highly interested in employing math-oriented coding in order to create custom data visualizations and animations via d3js. Tenacious troubleshooter and problem solver that gleefully pursues challenge.</h2>
                     {this.state.snippets.map(snippet => (
                         <div className="list">
                             <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
                                 <ul className="unordered">
                                     <li>
                                         <img className="image" src={snippet.img} alt="" />
-                                        <h3>{snippet.heading}</h3>
+                                        <h3 className="heading">{snippet.heading}</h3>
                                         <p className="text">{snippet.text}</p>
                                     </li>
                                 </ul>
