@@ -17,23 +17,28 @@ class Card extends Component {
                 icons1: ["fab", "react"],
                 icons2: ["fab", "node"],
                 icons3: ["fab", "aws"],
-                link1: "https://github.com/tywi6665/Project-3"
+                link1: "https://github.com/tywi6665/Project-3",
+                link2: ""
             }, {
                 url:"./images/photo2.jpg",
                 h1: "Clicky-Game",
                 h2: "A click game that boldly goes where no one has been before!",
                 p: "A React based game that tests the users memory skills and knowledge of Star Trek characters.",
                 icons1: ["fab", "react"],
-                icons2: ["fab", "node"],
-                icons3: ["fab", "aws"]
+                icons2: ["fab", "node-js"],
+                icons3: ["fab", "npm"],
+                link1: "https://github.com/tywi6665/Clicky-Game",
+                link2: ""
             }, {
                 url: "./images/photo3.jpg",
                 h1: "Is This Legit",
                 h2: "Delving into the werld of machine learning",
-                p: "The internet is awash with misleading articles and information. We have all sat there wondering if the web page you're reading is indeed legitimate and therefore trustworthy. Now there's an app for that!",
+                p: "The internet is awash with misleading articles and information. Ever wondered if the web page you're reading is trustworthy. There's an app for that!",
                 icons1: ["fas", "database"],
                 icons2: ["fab", "npm"],
-                icons3: ["fas", "server"]
+                icons3: ["fas", "server"],
+                link1: "https://github.com/tywi6665/is-this-legit",
+                link2: "https://peaceful-savannah-96764.herokuapp.com/"
             }]
     }
 
@@ -56,11 +61,15 @@ class Card extends Component {
                                 </div>
                                 <div className="links">
                                     <span>
-                                        <FontAwesomeIcon icon={["fab", "github"]} size="2x"/>
-                                        <a href={thumbnail.link1}/>
+                                        <a href={thumbnail.link1} target="_blank">
+                                            <FontAwesomeIcon icon={["fab", "github"]} size="2x"/>
+                                        </a>
                                     </span>
-                                    <span><FontAwesomeIcon icon={["fas", "code"]} size="2x"/></span>
-                                    {/* <span><FontAwesomeIcon icon={["fas", "spinner"]} size="xs" spin/></span> */}
+                                    <span>
+                                        <a href={thumbnail.link2} target="_blank">
+                                            <FontAwesomeIcon icon={["fas", "code"]} size="2x"/>
+                                        </a>
+                                    </span>
                                 </div>
                             </div>
                         </div>
