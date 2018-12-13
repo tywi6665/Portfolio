@@ -1,0 +1,20 @@
+.info {
+    position: fixed;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.info h2::first-letter{
+    color: #a80038;
+}
+
+.pic {
+    border-radius: 50%;
+}
+
+.contacts li{
+    display: inline;
+    margin: 10px;
+}
