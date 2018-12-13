@@ -19,6 +19,8 @@
 .image {
     float: left;
     margin: 0 15px 0 0;
+    height: 210px;
+    width: 200px;
 }
 
 .list {
@@ -29,6 +31,11 @@
     font-weight: bold;
     font-size: 125%;
     margin: 0;
+}
+
+.subheading {
+    font-weight: bold;
+    font-size: 115%;
 }
 
 .text {

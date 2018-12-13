@@ -14,21 +14,30 @@ class Main extends Component {
 
     state = {
         snippets: [{
-            img: "https://loremflickr.com/100/100?random=1",
+            img: "./images/trilogy.jpg",
             heading: "Professional Experience",
-            text: "Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb. My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?"
+            subheading: "Trilogy Education • Teaching Assistant",
+            text: "• Oversees a cohort of 25+ students • Ensures students achieved thorough understanding of educational material via one-on-one interaction • Tutors students on the nuances of HTML, CSS, JavaScript and associated technologies • Fosters teamwork dynamic"
         }, {
-            img: "https://loremflickr.com/100/100?random=1",
-            heading: "I've got a long way to go!",
-            text: "Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb. My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?"
+            img: "./images/CU-Logo.jpg",
+            heading: "Professional Experience",
+            subheading: "Senior Capstone Project • University of Colorado Boulder",
+            text: "• Worked in conjunction with process engineering team at CRB Quality Engineering Consulting • Converted monoclonal antibody batch process into pseudo-continuous process using SuperPro • Developed, validated, and optimized continuous process simulation and workflow via process control • Compiled simulation which resulted in a net increase of 200% for annual therapeutic throughput"
         }, {
-            img: "https://loremflickr.com/100/100?random=1",
-            heading: "I've got a long way to go!",
-            text: "Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb. My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?"
+            img: "./images/CU-Logo.jpg",
+            heading: "Professional Experience",
+            subheading: "Bowman Lab Group • University of Colorado Boulder",
+            text: "• Designed experimental methods and protocols in accordance with Good Lab Practices • Formulated and produced thin-film polymer films for Aeronautical Riblet project financed by Boeing • Encoded holographic data on two-stage photo-initiated polymer systems • Implemented design of experiment techniques utilizing Dynamic Mechanical Analysis and microscopy"
         }, {
-            img: "https://loremflickr.com/100/100?random=1",
-            heading: "I've got a long way to go!",
-            text: "Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb. My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?"
+            img: "./images/DU-Logo.jpg",
+            heading: "Education",
+            subheading: "Web Development and Coding Bootcamp • University of Denver",
+            text: "• Obtained 240 in-class JavaScript coding hours • Employed JavaScript, HTML, and CSS to create fully fleshed out and MERN web applications • Responsible for full stack web development for all educational and extracurricular projects • Utilized DRY and best coding practices"
+        }, {
+            img: "./images/CU-Logo.jpg",
+            heading: "Education",
+            subheading: "College of Engineering • University of Denver",
+            text: "• B.S. in Chemical & Biological Engineering • Minor in Biochemistry • Pharmaceutical Biotechnology Focus"
         }]
     }
 
@@ -45,6 +54,7 @@ class Main extends Component {
                                     <li>
                                         <img className="image" src={snippet.img} alt="" />
                                         <h3 className="heading">{snippet.heading}</h3>
+                                        <h3 className="subheading">{snippet.subheading}</h3>
                                         <p className="text">{snippet.text}</p>
                                     </li>
                                 </ul>
