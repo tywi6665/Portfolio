@@ -14,27 +14,27 @@ class Main extends Component {
 
     state = {
         snippets: [{
-            img: "./images/trilogy.jpg",
+            img: "./images/trilogy.png",
             heading: "Professional Experience",
             subheading: "Trilogy Education • Teaching Assistant",
             text: "• Oversees a cohort of 25+ students • Ensures students achieved thorough understanding of educational material via one-on-one interaction • Tutors students on the nuances of HTML, CSS, JavaScript and associated technologies • Fosters teamwork dynamic"
         }, {
-            img: "./images/CU-Logo.jpg",
+            img: "./images/CU-Logo.png",
             heading: "Professional Experience",
             subheading: "Senior Capstone Project • University of Colorado Boulder",
             text: "• Worked in conjunction with process engineering team at CRB Quality Engineering Consulting • Converted monoclonal antibody batch process into pseudo-continuous process using SuperPro • Developed, validated, and optimized continuous process simulation and workflow via process control • Compiled simulation which resulted in a net increase of 200% for annual therapeutic throughput"
         }, {
-            img: "./images/CU-Logo.jpg",
+            img: "./images/CU-Logo.png",
             heading: "Professional Experience",
             subheading: "Bowman Lab Group • University of Colorado Boulder",
             text: "• Designed experimental methods and protocols in accordance with Good Lab Practices • Formulated and produced thin-film polymer films for Aeronautical Riblet project financed by Boeing • Encoded holographic data on two-stage photo-initiated polymer systems • Implemented design of experiment techniques utilizing Dynamic Mechanical Analysis and microscopy"
         }, {
-            img: "./images/DU-Logo.jpg",
+            img: "./images/DU-Logo.png",
             heading: "Education",
             subheading: "Web Development and Coding Bootcamp • University of Denver",
             text: "• Obtained 240 in-class JavaScript coding hours • Employed JavaScript, HTML, and CSS to create fully fleshed out and MERN web applications • Responsible for full stack web development for all educational and extracurricular projects • Utilized DRY and best coding practices"
         }, {
-            img: "./images/CU-Logo.jpg",
+            img: "./images/CU-Logo.png",
             heading: "Education",
             subheading: "College of Engineering • University of Denver",
             text: "• B.S. in Chemical & Biological Engineering • Minor in Biochemistry • Pharmaceutical Biotechnology Focus"

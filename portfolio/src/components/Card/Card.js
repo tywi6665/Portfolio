@@ -32,7 +32,7 @@ class Card extends Component {
             }, {
                 url: "./images/photo3.jpg",
                 h1: "Is This Legit",
-                h2: "Delving into the werld of machine learning",
+                h2: "Delving into the world of machine learning",
                 p: "The internet is awash with misleading articles and information. Ever wondered if the web page you're reading is trustworthy. There's an app for that!",
                 icons1: ["fas", "database"],
                 icons2: ["fab", "npm"],

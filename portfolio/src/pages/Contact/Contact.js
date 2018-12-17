@@ -8,12 +8,20 @@ class Contact extends Component {
         return (
             <Container>
                 <div className="info">
-                    <img className="pic" src="https://picsum.photos/300/?random" alt="me" />
+                    <img className="pic" src="./images/me.jpg" alt="me" />
                     <h2>Tyler Winstead</h2>
                     <ul className="contacts">
-                        <li>tyletcole@gmail.com</li>
+                        <a href="mailto:tyletcole@gmail.com">
+                            <li>tyletcole@gmail.com</li>
+                        </a>
                         <li>//</li>
-                        <li>github.com/tywi6665</li>
+                        <a href="https://github.com/tywi6665" target="_blank">
+                            <li>github.com</li>
+                        </a>
+                        {/* <li>//</li>
+                        <a href="https://www.linkedin.com/in/tywi6665" target="_blank">
+                            <li>linkedin</li>
+                        </a> */}
                     </ul>
                 </div>
             </Container>
