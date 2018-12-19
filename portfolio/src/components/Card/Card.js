@@ -11,13 +11,13 @@ class Card extends Component {
     state = {
         thumbnails: [{
                 url:"./images/photo1.jpg",
-                h1: "Color Wheel",
+                h1: "Chromaticity",
                 h2: "An experiment in D3.js",
                 p: "A React based web application that utilizes custom designed D3.js elements and animations to generate and analyze images based on specified color and existing color palettes.",
                 icons1: ["fab", "react"],
                 icons2: ["fab", "node"],
                 icons3: ["fab", "aws"],
-                link1: "https://github.com/tywi6665/Project-3",
+                link1: "https://github.com/tywi6665/Project-3/",
                 link2: ""
             }, {
                 url:"./images/photo2.jpg",
@@ -27,8 +27,8 @@ class Card extends Component {
                 icons1: ["fab", "react"],
                 icons2: ["fab", "node-js"],
                 icons3: ["fab", "npm"],
-                link1: "https://github.com/tywi6665/Clicky-Game",
-                link2: ""
+                link1: "https://github.com/tywi6665/Clicky-Game2/",
+                link2: "https://clicky-game1993.herokuapp.com/"
             }, {
                 url: "./images/photo3.jpg",
                 h1: "Is This Legit",
@@ -37,7 +37,7 @@ class Card extends Component {
                 icons1: ["fas", "database"],
                 icons2: ["fab", "npm"],
                 icons3: ["fas", "server"],
-                link1: "https://github.com/tywi6665/is-this-legit",
+                link1: "https://github.com/tywi6665/is-this-legit/",
                 link2: "https://peaceful-savannah-96764.herokuapp.com/"
             }]
     }
