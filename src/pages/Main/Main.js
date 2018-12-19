@@ -64,7 +64,7 @@ class Main extends Component {
                     <div className="skills">
                         <ScrollAnimation animateIn="fadeInUp" animateOut="fadeOut" offset={50} >
                             <h3>Hard Skills</h3>
-                            <span className="icon js"><FontAwesomeIcon icon={["fab", "js"]} size="3x" /></span>
+                            <span className="icon"><FontAwesomeIcon icon={["fab", "js"]} size="3x" /></span>
                             <span className="icon"><FontAwesomeIcon icon={["fab", "react"]} size="3x" spin /></span>
                             <span className="icon"><img src="./images/d3.svg" height="42px" width="42px" alt="d3 icon" /></span>
                             <span className="icon"><FontAwesomeIcon icon={["fab", "html5"]} size="3x" /></span>
