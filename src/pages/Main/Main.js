@@ -24,7 +24,7 @@ class Main extends Component {
             subheading: "Senior Capstone Project • University of Colorado Boulder",
             text: "• Worked in conjunction with process engineering team at CRB Quality Engineering Consulting • Converted monoclonal antibody batch process into pseudo-continuous process using SuperPro • Developed, validated, and optimized continuous process simulation and workflow via process control • Compiled simulation which resulted in a net increase of 200% for annual therapeutic throughput"
         }, {
-            img: "./images/CU-Logo.png",
+            img: "./images/CU-logo.png",
             heading: "Professional Experience",
             subheading: "Bowman Lab Group • University of Colorado Boulder",
             text: "• Designed experimental methods and protocols in accordance with Good Lab Practices • Formulated and produced thin-film polymer films for Aeronautical Riblet project financed by Boeing • Encoded holographic data on two-stage photo-initiated polymer systems • Implemented design of experiment techniques utilizing Dynamic Mechanical Analysis and microscopy"
