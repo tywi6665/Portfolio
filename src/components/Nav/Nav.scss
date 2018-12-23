@@ -25,15 +25,12 @@ Nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    transform: translate(0, -50%);
 }
 
 .navList li {
     padding: 25px 10px;
     text-align: center;
-}
-
-.navList li:first-child {
-    margin-top: 200%;
 }
 
 // li:hover {
