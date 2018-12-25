@@ -18,7 +18,7 @@ class Card extends Component {
                 icons2: ["fab", "node"],
                 icons3: ["fab", "aws"],
                 link1: "https://github.com/tywi6665/Project-3/",
-                link2: ""
+                link2: "https://chromaticity1993.herokuapp.com/"
             }, {
                 url:"./images/photo2.jpg",
                 h1: "Clicky-Game",

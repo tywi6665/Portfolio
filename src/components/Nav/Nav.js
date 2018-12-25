@@ -10,14 +10,20 @@ library.add(fab, fas);
 
 const Nav = () => (
     <nav>
-        <ul className="navList">
-            <li><Link to={"/main"}>About
+        <div className="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul className="navList">
+                <li><Link to={"/main"}>About
                     {/* <span><FontAwesomeIcon icon={["fas", "code"]} size="4x"/></span> */}
-                </Link>
-            </li>
-            <li><Link to={"/projects"}>Projects</Link></li>
-            <li><Link to={"/contact"}>Contact Me</Link></li>
-        </ul>
+                    </Link>
+                </li>
+                <li><Link to={"/projects"}>Projects</Link></li>
+                <li><Link to={"/contact"}>Contact Me</Link></li>
+            </ul>
+        </div>
     </nav>
 );
 
