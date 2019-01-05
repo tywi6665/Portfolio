@@ -154,15 +154,15 @@ a {
 @media (max-width: 475px) {
   .tile {
     //width: 117%;
-    height: 500px;
+    height: 525px;
   }
   .links {
     flex-direction: row;
-    margin-right: 200px;
+    margin-right: 150px;
   }
 }
 
-@media (max-width: 650px) and (min-width: 1000px) {
+@media (min-width: 650px) and (max-width: 1000px) {
   .wrapper {
     margin-top: 0;
     width: 120%;
