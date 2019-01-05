@@ -151,7 +151,7 @@ a {
   transition-delay: 0.1s;
 }
 
-@media (min-width: 475px) {
+@media (max-width: 475px) {
   .tile {
     //width: 117%;
     height: 500px;
@@ -162,7 +162,7 @@ a {
   }
 }
 
-@media (min-width: 650px) and (max-width: 1000px) {
+@media (max-width: 650px) and (min-width: 1000px) {
   .wrapper {
     margin-top: 0;
     width: 120%;
@@ -177,7 +177,7 @@ a {
   }
 }
 
-@media (min-width: 1000px) {
+@media (max-width: 1000px) {
   .wrapper {
     flex-direction: column;
     // width: 400px;
