@@ -64,7 +64,7 @@ input {
     display: none;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 600px) {
 Nav {
     width: 0;
     height: 100%;
@@ -76,7 +76,7 @@ Nav {
   position: relative;
   height: 100%;
   top: 50px;
-  left: 21px;
+  left: 23px;
   z-index: 1;
   -webkit-user-select: none;
   user-select: none;
