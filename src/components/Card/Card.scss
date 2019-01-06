@@ -151,19 +151,6 @@ a {
   transition-delay: 0.1s;
 }
 
-@media only screen and (max-width: 475px) {
-  .wrapper {
-    width: 100%;
-  }
-  .tile {
-    height: 525px;
-  }
-  .links {
-    flex-direction: row;
-    margin-right: 150px;
-  }
-}
-
 @media only screen and (max-width: 650px) {
   .wrapper {
     margin-top: 0;
@@ -176,6 +163,19 @@ a {
   //   flex-direction: column;
   //   margin: 0 auto;
   // }
+}
+
+@media only screen and (max-width: 475px) {
+  .wrapper {
+    width: 100%;
+  }
+  .tile {
+    height: 525px;
+  }
+  .links {
+    flex-direction: row;
+    margin-right: 150px;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
