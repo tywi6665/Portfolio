@@ -152,29 +152,30 @@ a {
 }
 
 @media only screen and (max-width: 475px) {
+  .wrapper {
+    width: 100%;
+  }
   .tile {
-    //width: 117%;
     height: 525px;
   }
   .links {
     flex-direction: row;
-    margin-right: 160px;
+    margin-right: 150px;
   }
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (max-width: 650px) {
   .wrapper {
     margin-top: 0;
     width: 130%;
   }
   .tile {
-    //width: 117%;
     height: 450px;
   }
-  .links {
-    flex-direction: column;
-    margin: 0 auto;
-  }
+  // .links {
+  //   flex-direction: column;
+  //   margin: 0 auto;
+  // }
 }
 
 @media only screen and (min-width: 1000px) {

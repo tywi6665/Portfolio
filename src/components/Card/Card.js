@@ -10,7 +10,8 @@ class Card extends Component {
 
     state = {
         thumbnails: [{
-                url:"./images/photo1.jpg",
+                id: 1,
+                url: "./images/photo1.jpg",
                 h1: "Chromaticity",
                 h2: "An experiment in D3.js",
                 p: "A React based web application that utilizes custom designed D3.js elements and animations to generate and analyze images based on specified color and existing color palettes.",
@@ -20,7 +21,8 @@ class Card extends Component {
                 link1: "https://github.com/tywi6665/Project-3/",
                 link2: "https://chromaticity1993.herokuapp.com/"
             }, {
-                url:"./images/photo2.jpg",
+                id: 2,
+                url: "./images/photo2.jpg",
                 h1: "Clicky-Game",
                 h2: "A click game that boldly goes where no one has been before!",
                 p: "A React based game that tests the users memory skills and knowledge of Star Trek characters.",
@@ -30,6 +32,7 @@ class Card extends Component {
                 link1: "https://github.com/tywi6665/Clicky-Game2/",
                 link2: "https://clicky-game1993.herokuapp.com/"
             }, {
+                id: 3,
                 url: "./images/photo3.jpg",
                 h1: "Is This Legit",
                 h2: "Delving into the world of machine learning",
@@ -46,7 +49,7 @@ class Card extends Component {
         return (
             <Fragment>
                 {this.state.thumbnails.map(thumbnail => (
-                    <div  className="wrapper">
+                    <div className="wrapper" key={thumbnail.id}>
                         <div className="tile">
                             <img src={thumbnail.url} alt={thumbnail.h1}/>
                             <div className="text">
