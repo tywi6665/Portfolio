@@ -13,7 +13,8 @@ class Card extends Component {
                 id: 1,
                 url: "./images/photo1.jpg",
                 h1: "Chromaticity",
-                h2: "An experiment in D3.js",
+                h2: `An experiment in D3.js
+                    (Work in Progess)`,
                 p: "A React based web application that utilizes custom designed D3.js elements and animations to generate and analyze images based on specified color and existing color palettes.",
                 icons1: ["fab", "react"],
                 icons2: ["fab", "node"],
@@ -25,7 +26,7 @@ class Card extends Component {
                 url: "./images/photo2.jpg",
                 h1: "Clicky-Game",
                 h2: "A click game that boldly goes where no one has been before!",
-                p: "A React based game that tests the users memory skills and knowledge of Star Trek characters.",
+                p: "A React based game that tests the users memory skills and knowledge of Star Trek characters. Resistance to play this game is futile!",
                 icons1: ["fab", "react"],
                 icons2: ["fab", "node-js"],
                 icons3: ["fab", "npm"],
