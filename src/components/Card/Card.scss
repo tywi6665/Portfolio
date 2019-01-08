@@ -174,12 +174,20 @@ a {
   }
   .links {
     flex-direction: row;
-    margin-right: 155px;
+    margin-right: 0px;
+    right: 46%;
   }
   .links span {
     margin-top: 30px;
   }
 }
+
+// @media only screen and (max-width: 375px) {
+//   .links {
+//     margin-right: 0px;
+//     right: 46%;
+//   }
+// }
 
 @media only screen and (min-width: 1000px) {
   .wrapper {
