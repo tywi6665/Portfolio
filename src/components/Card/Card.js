@@ -46,6 +46,16 @@ class Card extends Component {
             }]
     }
 
+    mouseEnter() {
+        console.log("Mouse Enter");
+        // this.className.add("modal");
+    }
+
+    mouseLeave() {
+        console.log("Mouse Leave");
+    } 
+
+
     render() {
         return (
             <Fragment>
@@ -59,7 +69,7 @@ class Card extends Component {
                                 <p className="animate-text">{thumbnail.p}</p>
                                 <div className="animate-icons">
                                     <h3>Technologies Used:</h3>
-                                    <span><FontAwesomeIcon icon={thumbnail.icons1} size="4x"/></span>
+                                    <span onMouseEnter={this.mouseEnter} onMouseLeave={this.mouseLeave}><FontAwesomeIcon icon={thumbnail.icons1} size="4x"/></span>
                                     <span><FontAwesomeIcon icon={thumbnail.icons2} size="4x"/></span>
                                     <span><FontAwesomeIcon icon={thumbnail.icons3} size="4x"/></span>
                                 </div>
@@ -82,7 +92,6 @@ class Card extends Component {
             </Fragment>
         )
     }
-
 
 }
 
