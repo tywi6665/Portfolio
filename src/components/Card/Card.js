@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from "react";
 import "./Card.scss";
+import Modal from "../Modal"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fas } from '@fortawesome/free-solid-svg-icons'
@@ -17,6 +18,9 @@ class Card extends Component {
                     (Work in Progess)`,
                 p: "A React based web application that utilizes custom designed D3.js elements and animations to generate and analyze images based on specified color and existing color palettes.",
                 icons1: ["fab", "react"],
+                modalHeader: "React",
+                modalTech: "React",
+                modalDescription: "qwertyuioplkjhgfdsazxcvbnm",
                 icons2: ["fab", "node"],
                 icons3: ["fab", "aws"],
                 link1: "https://github.com/tywi6665/Project-3/",
@@ -69,7 +73,13 @@ class Card extends Component {
                                 <p className="animate-text">{thumbnail.p}</p>
                                 <div className="animate-icons">
                                     <h3>Technologies Used:</h3>
-                                    <span onMouseEnter={this.mouseEnter} onMouseLeave={this.mouseLeave}><FontAwesomeIcon icon={thumbnail.icons1} size="4x"/></span>
+                                    <span onMouseEnter={this.mouseEnter} onMouseLeave={this.mouseLeave}><FontAwesomeIcon icon={thumbnail.icons1} size="4x"/>
+                                        <Modal
+                                            modalHeader={thumbnail.modalHeader}
+                                            modalTech={thumbnail.modalTech}
+                                            modalDescription={thumbnail.modalDescription}
+                                        />
+                                    </span>
                                     <span><FontAwesomeIcon icon={thumbnail.icons2} size="4x"/></span>
                                     <span><FontAwesomeIcon icon={thumbnail.icons3} size="4x"/></span>
                                 </div>
