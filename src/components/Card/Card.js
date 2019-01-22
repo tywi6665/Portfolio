@@ -13,7 +13,7 @@ class Card extends Component {
         hover: null,
         thumbnails: [{
                 id: 1,
-                url: "./images/photo1.jpg",
+                url: "./images/react-wallpaper.png",
                 h1: "Chromaticity",
                 h2: `An experiment in D3.js
                     (Work in Progess)`,
@@ -28,7 +28,7 @@ class Card extends Component {
                 link2: "https://chromaticity1993.herokuapp.com/"
             }, {
                 id: 2,
-                url: "./images/photo2.jpg",
+                url: "./images/node-wallpaper.png",
                 h1: "Clicky-Game",
                 h2: "A click game that boldly goes where no one has been before!",
                 p: "A React based game that tests the users memory skills and knowledge of Star Trek characters. Resistance to play this game is futile!",
@@ -39,7 +39,7 @@ class Card extends Component {
                 link2: "https://clicky-game1993.herokuapp.com/"
             }, {
                 id: 3,
-                url: "./images/photo3.jpg",
+                url: "./images/code-tag.jpg",
                 h1: "Is This Legit",
                 h2: "Delving into the world of machine learning",
                 p: "The internet is awash with misleading articles and information. Ever wondered if the web page you're reading is trustworthy. There's an app for that!",
