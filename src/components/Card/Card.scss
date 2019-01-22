@@ -4,6 +4,7 @@
   float: left;
   display: flex;
   align-items: space-around;
+  flex: 1 1 100%;
 }
 
 .wrapper:last-child {
@@ -154,7 +155,7 @@ a {
 @media only screen and (max-width: 650px) {
   .wrapper {
     margin-top: 0;
-    width: 130%;
+    // width: 130%;
   }
   .tile {
     height: 450px;
@@ -167,7 +168,7 @@ a {
 
 @media only screen and (max-width: 475px) {
   .wrapper {
-    width: 100%;
+    // width: 100%;
   }
   .tile {
     height: 525px;
@@ -195,7 +196,6 @@ a {
     // width: 400px;
   }
 }
-
 
 
 

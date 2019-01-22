@@ -10,6 +10,7 @@ library.add(fab, fas);
 class Card extends Component {
 
     state = {
+        hover: null,
         thumbnails: [{
                 id: 1,
                 url: "./images/photo1.jpg",
@@ -50,13 +51,16 @@ class Card extends Component {
             }]
     }
 
-    mouseEnter() {
+    mouseEnter = (event) => {
         console.log("Mouse Enter");
-        // this.className.add("modal");
-    }
+        this.setState({hover: true});
+        console.log(this.state.hover);
+    };
 
-    mouseLeave() {
+    mouseLeave = (event) => {
         console.log("Mouse Leave");
+        this.setState({hover: false});
+        console.log(this.state.hover);
     } 
 
 
@@ -69,15 +73,16 @@ class Card extends Component {
                             <img src={thumbnail.url} alt={thumbnail.h1}/>
                             <div className="text">
                                 <h1>{thumbnail.h1}</h1>
-                                <h2 className="animate-text">{thumbnail.h2}</h2>
+                                <h2 onMouseEnter={this.mouseEnter} className="animate-text">{thumbnail.h2}</h2>
                                 <p className="animate-text">{thumbnail.p}</p>
                                 <div className="animate-icons">
                                     <h3>Technologies Used:</h3>
-                                    <span onMouseEnter={this.mouseEnter} onMouseLeave={this.mouseLeave}><FontAwesomeIcon icon={thumbnail.icons1} size="4x"/>
+                                    <span className="hover" onMouseEnter={this.mouseEnter} onMouseLeave={this.mouseLeave}><FontAwesomeIcon icon={thumbnail.icons1} size="4x"/>
                                         <Modal
                                             modalHeader={thumbnail.modalHeader}
                                             modalTech={thumbnail.modalTech}
                                             modalDescription={thumbnail.modalDescription}
+                                            // style={}
                                         />
                                     </span>
                                     <span><FontAwesomeIcon icon={thumbnail.icons2} size="4x"/></span>
