@@ -2,18 +2,18 @@ body {
     background-color: whitesmoke;
 }
 
-.triangleMain {
-    position: absolute;
-    // top: 200px;
-    // left: 150px;
-    width: 0;
-    height: 0;
-    transform: rotate(60deg);
-    border-left: 500px solid transparent;
-    border-right: 300px solid transparent;
-    border-bottom: 3000px solid #358;
-    z-index: -1;
-}
+// .triangleMain {
+//     position: absolute;
+//     // top: 200px;
+//     // left: 150px;
+//     width: 0;
+//     height: 0;
+//     transform: rotate(60deg);
+//     border-left: 500px solid transparent;
+//     border-right: 300px solid transparent;
+//     border-bottom: 3000px solid #358;
+//     z-index: -1;
+// }
 
 .name::first-letter {
     font-size: 150%;
