@@ -49,6 +49,7 @@ class Main extends Component {
     render() {
         return (
             <Container>
+                <div className="triangleMain"></div>
                 <TextBox>
                     <h1 className="name">Tyler Winstead</h1>
                     <h2 className="statement">I am a recent University of Denver Coding Bootcamp graduate, and aspiring front-end web developer. I combine an engineering background and knowhow with a newfound MERN skillset in full-stack web development. I am highly interested in employing math-oriented coding in order to create custom data visualizations and animations via d3js. I am a tenacious troubleshooter and problem solver that gleefully pursues challenge.</h2>
