@@ -37,7 +37,7 @@ var svg = d3.select("body")
 var data = [];
 var numCircles,
   circleX = 1500,
-  circleY = 750,
+  circleY = 615,
   maxRadius = 50
  
 //Function to generate random numbers
