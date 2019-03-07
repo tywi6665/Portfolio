@@ -21,6 +21,8 @@ Nav {
     display: flex;
     align-items: center;
     background-color: #fd0054;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
     box-shadow: 0px 0px 35px #a80038;
 }
 
@@ -91,17 +93,17 @@ a {
 //   transform: translateX(-50%) translateY(-50%) scale(0.8);
 // }
 
+.navList a:focus::before,
+.navList a:focus::after {
+  border: 6px inset rgba(168,0,56,0.7);
+}
+
 .navList a:hover::before,
 .navList a:hover::after,
 .navList a:focus::before,
 .navList a:focus::after {
   opacity: 1;
   transform: translateX(-50%) translateY(-50%) scale(1);
-}
-
-.navList a:focus::before,
-.navList a:focus::after {
-  border: 6px inset rgba(168,0,56,0.7);
 }
 
 input {
