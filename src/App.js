@@ -36,7 +36,7 @@ var svg = d3.select("body")
 //Creating data properties
 var data = [];
 var numCircles,
-  circleX = 1500,
+  circleX = 1350,
   circleY = 600,
   maxRadius = 50
  
@@ -74,8 +74,8 @@ function update() {
   circle.enter()
     .append("circle")
     .attr("r", 0)
-    .attr("cx", width / 2)
-    .attr("cy", height / 2)
+    .attr("cx", random(circleX))
+    .attr("cy", random(circleY))
     .style("fill", "black")
     .merge(circle)
     .transition()
