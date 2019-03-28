@@ -2,7 +2,6 @@
 
 $width: 100%;
 
-
 //--------------- Global Variables ---------------//
 
 
@@ -30,7 +29,6 @@ Nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    // transform: translate(0, 50%);
 }
 
 .navList li {
@@ -39,33 +37,10 @@ Nav {
     position: relative;
 }
 
-// li:hover {
-//     background-color: #a80038;
-//     transition: all 0.4s ease-in;
-// }
-
 a {
     text-decoration: none;
     color: black;
 }
-
-// .navList li::before {
-//     content: "";
-//     display: block;
-//     height: 15px;
-//     // border-radius: 10px;
-//     width: 100%;
-//     background-color: #a80038;
-//     // position: absolute;
-//     // top: 0;
-//     width: 0%;
-//     transition: all ease-in-out 250ms;
-// }
-
-// .navList li:hover::before {
-//     width: 100%;
-//     // border-radius: 100%;
-// }
 
 .menuToggle {
   position: relative;
@@ -96,7 +71,7 @@ a {
 
 .navList a:focus::before,
 .navList a:focus::after {
-  border: 6px inset rgba(168,0,56,0.7);
+  border: 4px inset rgba(168,0,56,0.7);
 }
 
 .navList a:focus::after {
