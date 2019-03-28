@@ -12,8 +12,8 @@ const App = () => (
 
   <Router>
     <div>
-      <Nav />
       <ScrollToTop>
+        <Nav />
         <Switch>
           <Route exact path="/" component={Main} />
           <Route exact path="/main" component={Main} />
@@ -67,7 +67,6 @@ function randomValues() {
 function update() {
   //Calling the random values function
   randomValues();
-  console.log(data);
   //Creating the circles
   var circle = d3.select("svg.d3")
     .selectAll("circle")

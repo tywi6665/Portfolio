@@ -58,19 +58,6 @@ class Card extends Component {
             }]
     }
 
-    // mouseEnter = (event) => {
-    //     console.log("Mouse Enter");
-    //     this.setState({hover: true});
-    //     console.log(this.state.hover);
-    // };
-
-    // mouseLeave = (event) => {
-    //     console.log("Mouse Leave");
-    //     this.setState({hover: false});
-    //     console.log(this.state.hover);
-    // } 
-
-
     render() {
         return (
             <Fragment>

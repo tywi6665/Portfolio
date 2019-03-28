@@ -18,10 +18,6 @@ class Contact extends Component {
                         <a href="https://github.com/tywi6665" target="_blank">
                             <li>github.com</li>
                         </a>
-                        {/* <li>//</li>
-                        <a href="https://www.linkedin.com/in/tywi6665" target="_blank">
-                            <li>linkedin</li>
-                        </a> */}
                     </ul>
                 </div>
             </Container>
