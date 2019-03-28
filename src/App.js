@@ -5,6 +5,7 @@ import Nav from "./components/Nav";
 import Main from "./pages/Main";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import ScrollToTop from 'react-router-scroll-top'
 import * as d3 from "d3";
 
 const App = () => (
@@ -12,12 +13,14 @@ const App = () => (
   <Router>
     <div>
       <Nav />
-      <Switch>
-        <Route exact path="/" component={Main} />
-        <Route exact path="/main" component={Main} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/contact" component={Contact} />
-      </Switch>
+      <ScrollToTop>
+        <Switch>
+          <Route exact path="/" component={Main} />
+          <Route exact path="/main" component={Main} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/contact" component={Contact} />
+        </Switch>
+      </ScrollToTop>
     </div>
   </Router>
 
@@ -39,13 +42,13 @@ var numCircles,
   circleX = 1350,
   circleY = 600,
   maxRadius = 50
- 
+
 //Function to generate random numbers
 function random(num) {
   return Math.floor(Math.random() * num);
 };
 
-//Generating rnadom values
+//Generating random values
 function randomValues() {
   data = [];
   numCircles = random(20);
