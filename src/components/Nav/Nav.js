@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { fas } from '@fortawesome/free-solid-svg-icons'
-// import { fab } from '@fortawesome/free-brands-svg-icons';
+import Tippy from '@tippy.js/react';
+import 'tippy.js/dist/tippy.css';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons';
 import "./Nav.scss";
-// library.add(fab, fas);
+library.add(fab, fas);
 
 
 const Nav = () => (
@@ -16,13 +18,17 @@ const Nav = () => (
             <span></span>
             <span></span>
             <ul className="navList">
-                <li><Link to={"/main"}>About
-                    {/* <span><FontAwesomeIcon icon={["fas", "code"]} size="4x"/></span> */}
-                    </Link>
-                </li>
+                <li><Link to={"/main"}>About Me</Link></li>
                 <li><Link to={"/projects"}>Projects</Link></li>
                 <li><Link to={"/contact"}>Contact Me</Link></li>
             </ul>
+            {/* <div className="navIcons">
+                <Link to={"/details"}>
+                    <Tippy arrow={true} content={<span className="popover">Portfolio Details</span>}>
+                        <FontAwesomeIcon icon={["fas", "info-circle"]} size="2x" />
+                    </Tippy>
+                </Link>
+            </div> */}
         </div>
     </nav>
 );

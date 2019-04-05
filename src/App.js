@@ -5,6 +5,7 @@ import Nav from "./components/Nav";
 import Main from "./pages/Main";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Details from "./pages/Details";
 import ScrollToTop from 'react-router-scroll-top'
 import * as d3 from "d3";
 
@@ -29,6 +30,7 @@ class App extends Component {
               <Route exact path="/main" component={Main} />
               <Route exact path="/projects" component={Projects} />
               <Route exact path="/contact" component={Contact} />
+              <Route exact path="/details" component={Details} />
             </Switch>
           </ScrollToTop>
         </div>

@@ -31,10 +31,14 @@ Nav {
     padding: 0;
 }
 
-.navList li {
+.navList li, .navIcons {
     padding: 45px 10px;
     text-align: center;
     position: relative;
+}
+
+.navIcons {
+  color: whitesmoke;
 }
 
 a {
@@ -53,7 +57,7 @@ a {
   left: 50%;
   width: 90px;
   height: 90px;
-  border: 4px inset rgba(255,255,255,0.7);
+  border: 2px inset rgba(255,255,255,0.7);
   border-radius: 50%;
   box-shadow: 0px 0px 10px #a80038;
   content: "";
@@ -65,17 +69,17 @@ a {
 .navList a::after {
   width: 86px;
   height: 50px;
-  border: 2px outset rgba(255,255,255,0.7);
+  border: 1px outset rgba(255,255,255,0.7);
   transform: translateX(-50%) translateY(-50%) scale(0.8);
 }
 
 .navList a:focus::before,
 .navList a:focus::after {
-  border: 4px inset rgba(168,0,56,0.7);
+  border: 2px inset rgba(168,0,56,0.7);
 }
 
 .navList a:focus::after {
-  border: 2px outset rgba(168,0,56,0.7)
+  border: 1px outset rgba(168,0,56,0.7)
 }
 
 .navList a:hover::before,
@@ -122,7 +126,6 @@ input {
   }
 
   .menuToggle span {
-    
     display: block;
     width: 33px;
     height: 4px;

@@ -1,0 +1,23 @@
+.detailsBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px 0 15px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(169, 169, 169, 0.3);
+}
+
+.deet {
+    text-align: center;
+}
+
+.deet ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.deetImage {
+    border-radius: 10px;
+}

@@ -16,7 +16,7 @@ class Contact extends Component {
                         </a>
                         <li>//</li>
                         <a href="https://github.com/tywi6665" target="_blank">
-                            <li>github.com</li>
+                            <li>github.com/tywi6665</li>
                         </a>
                     </ul>
                 </div>
