@@ -22,37 +22,33 @@
 }
 
 .contacts {
+    display: flex;
+    flex-direction: row;
     padding: 0;
     margin: 0;
 }
 
 .contacts li{
-    display: inline;
+    // display: inline;
+    list-style-type: none;
     margin: 0 10px 0 10px;
 }
 
 .contacts li:nth-child(2){
     color: #a80038;
-    // animation-name: spin;
-    // animation-duration: 5000ms;
-    // animation-iteration-count: infinite;
-    // animation-timing-function: linear; 
 }
-
-// .contacts li:last-child{
-//     display: block;
-//     margin: 10px;
-// }
 
 .contacts a {
     color: #2b2024
 }
 
-// @keyframes spin {
-//     from {
-//         transform:rotate(0deg);
-//     }
-//     to {
-//         transform:rotate(360deg);
-//     }
-// }
+@media only screen and (max-width: 475px) {
+    .contacts {
+        flex-direction: column;
+    }
+    
+    .contacts li{
+        // display: inline;
+        margin: 0 10px 10px 10px;
+    }
+ }
