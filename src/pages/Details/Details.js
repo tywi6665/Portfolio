@@ -8,19 +8,19 @@ class Details extends Component {
     state = {
         deets: [{
             id: 1,
-            img: "https://via.placeholder.com/250",
+            img: "./images/react-logo.png",
             heading: "Portfolio Deets!!",
             text: "Portfolio Deets!!"
         },
         {
             id: 2,
-            img: "https://via.placeholder.com/250",
+            img: "./images/d3.svg",
             heading: "Portfolio Deets!!",
             text: "Portfolio Deets!!"
         },
         {
             id: 3,
-            img: "https://via.placeholder.com/250",
+            img: "./images/sass-logo.png",
             heading: "Portfolio Deets!!",
             text: "Portfolio Deets!!"
         }]
