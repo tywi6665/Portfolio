@@ -84,7 +84,11 @@ class App extends Component {
     //Generating random values
     function randomValues() {
       data = [];
-      numCircles = random(20);
+      if (circleX < 450) {
+        numCircles = random(12);
+      } else {
+        numCircles = random(20);
+      }
       for (var i = 0; i < numCircles; i++) {
         data.push({
           x: random(circleX),
