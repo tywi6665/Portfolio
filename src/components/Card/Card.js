@@ -89,14 +89,14 @@ class Card extends Component {
                                 </div>
                                 <div className="links">
                                     <span>
-                                        <a href={thumbnail.link1} target="_blank">
+                                        <a href={thumbnail.link1} target="_blank" rel="noopener noreferrer">
                                             <Tippy arrow={true} content={<span className="popover">Github Repository</span>}>
                                                     <FontAwesomeIcon icon={["fab", "github"]} size="2x"/>
                                             </Tippy>
                                         </a>
                                     </span>
                                     <span>
-                                        <a href={thumbnail.link2} target="_blank">
+                                        <a href={thumbnail.link2} target="_blank" rel="noopener noreferrer">
                                             <Tippy arrow={true} content={<span className="popover">Live Link</span>}>
                                                 <FontAwesomeIcon icon={["fas", "code"]} size="2x"/>
                                             </Tippy>

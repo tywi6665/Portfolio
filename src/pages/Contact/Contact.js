@@ -14,8 +14,8 @@ class Contact extends Component {
                         <a href="mailto:tyletcole@gmail.com">
                             <li>tyletcole@gmail.com</li>
                         </a>
-                        <li>//</li>
-                        <a href="https://github.com/tywi6665" target="_blank">
+                        <li>•</li>
+                        <a href="https://github.com/tywi6665" target="_blank" rel="noopener noreferrer">
                             <li>github.com/tywi6665</li>
                         </a>
                     </ul>

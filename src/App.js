@@ -58,7 +58,7 @@ class App extends Component {
     var width = 100, height = 100;
 
     //Creating the SVG and appending it to the page
-    var svg = d3.select("body")
+    d3.select("body")
       .append("svg")
       .attr("class", "d3")
       .attr("width", width + "%")
