@@ -21,14 +21,14 @@ const Nav = () => (
                 <li><Link to={"/main"}>About Me</Link></li>
                 <li><Link to={"/projects"}>Projects</Link></li>
                 <li><Link to={"/contact"}>Contact Me</Link></li>
+                <li className="navIcons">
+                    <Link to={"/details"}>
+                        <Tippy arrow={true} content={<span className="popover">Portfolio Details</span>}>
+                            <FontAwesomeIcon icon={["fas", "info-circle"]} size="2x" />
+                        </Tippy>
+                    </Link>
+                </li>
             </ul>
-            {/* <div className="navIcons">
-                <Link to={"/details"}>
-                    <Tippy arrow={true} content={<span className="popover">Portfolio Details</span>}>
-                        <FontAwesomeIcon icon={["fas", "info-circle"]} size="2x" />
-                    </Tippy>
-                </Link>
-            </div> */}
         </div>
     </nav>
 );
