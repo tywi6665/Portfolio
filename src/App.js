@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Details from "./pages/Details";
 import ScrollToTop from 'react-router-scroll-top'
 import * as d3 from "d3";
+import withSplashScreen from "./components/withSplashScreen";
 
 class App extends Component {
   constructor() {
@@ -130,14 +131,6 @@ class App extends Component {
       .remove()
   };
 
-  // //Calling the update function
-  // update();
-
-  // setInterval(() => {
-  //   update()
-  // }, 5000);
-
-
   componentWillUnmount() {
     window.removeEventListener("resize", this.UpdateDimensions);
     clearInterval(this.interval);
@@ -145,4 +138,5 @@ class App extends Component {
 
 };
 
+// export default withSplashScreen(App);
 export default App;

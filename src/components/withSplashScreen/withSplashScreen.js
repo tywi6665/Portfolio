@@ -3,9 +3,13 @@ import "./withSplashScreen.scss";
 
 function LoadingDots() {
     return (
-        <div className="loading-dots">
-            ...
-        </div>
+        // <div className="splashScreen">
+            <div className="loadingDots">
+                <div className="splashDot1"></div>
+                <div className="splashDot2"></div>   
+                <div className="splashDot3"></div>
+            </div>
+        // </div>
     );
 };
 
@@ -17,13 +21,13 @@ function withSplashScreen(WrappedComponent) {
                 loading: true
             };
         };
-    
+
         componentDidMount() {
             setTimeout(() => {
                 this.setState({
                     loading: false
                 });
-            }, 3000)
+            }, 600000)
         };
 
         render() {
