@@ -138,5 +138,5 @@ class App extends Component {
 
 };
 
-// export default withSplashScreen(App);
-export default App;
+export default withSplashScreen(App);
+// export default App;
