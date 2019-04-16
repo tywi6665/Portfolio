@@ -33,7 +33,7 @@ function withSplashScreen(WrappedComponent) {
                 this.setState({
                     loading: false
                 });
-            }, 2800)
+            }, 300000)
         };
 
         render() {
