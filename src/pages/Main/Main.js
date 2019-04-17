@@ -51,7 +51,7 @@ class Main extends Component {
             <Container>
                 <TextBox>
                     <h1 className="name">Tyler Winstead</h1>
-                    <h2 className="statement">I am a recent University of Denver Coding Bootcamp graduate, and aspiring front-end web developer. I combine an engineering background and knowhow with a newfound MERN skillset in full-stack web development. I am highly interested in employing math-oriented coding in order to create custom data visualizations and animations via d3js. I am a tenacious troubleshooter and problem solver that gleefully pursues challenge.</h2>
+                    <h2 className="statement">I am a recent University of Denver Coding Bootcamp graduate, and JavaScript developer. I combine an engineering background and MERN skill set in full-stack web development. I'm highly interested in creating functionally engaging and visually captivating full-stack applications build upon JavaScript, ReactJS and Node.js. I am a tenacious troubleshooter and problem solver and debugger that gleefully pursues challenge. Lastly, I am both a lifelong learner and am extremely adaptable.</h2>
                     {this.state.snippets.map(snippet => (
                         <div className="list" key={snippet.id}>
                             <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">

@@ -8,8 +8,9 @@ function LoadingDots() {
                 {/* <div className="growDot"></div> */}
                 <div className="loadingDots">
                     <div className="splashDot1">T</div>
-                    <div className="splashDot2">C</div>
+                    <div className="splashDot2">Y</div>
                     <div className="splashDot3">W</div>
+                    <div className="splashDot4">I</div>
                 </div>
                 <div className="loadingText">
                     Awesomeness is on its way!!!

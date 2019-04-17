@@ -28,7 +28,7 @@
     height: 90px;
 }
 
-.splashDot1, .splashDot2, .splashDot3 {
+.splashDot1, .splashDot2, .splashDot3, .splashDot4 {
     display: inline-block;
     background-color: #a80038;
     color: whitesmoke;
@@ -54,6 +54,10 @@
 
 .splashDot3 {
     animation-delay: -0.9s;
+}
+
+.splashDot4 {
+    animation-delay: -0.6s;
 }
 
 // $halfWidth: 50vw;
