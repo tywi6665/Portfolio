@@ -17,7 +17,7 @@ class Card extends Component {
                 url: "./images/react-wallpaper.png",
                 h1: "Chromaticity",
                 h2: `An experiment in D3.js
-                    (Work in Progess)`,
+                    (MVP)`,
                 p: "A React based web application that utilizes custom designed D3.js elements and animations to generate and analyze images based on specified color and existing color palettes.",
                 icons1: ["fab", "react"],
                 popover1: "React Framework",

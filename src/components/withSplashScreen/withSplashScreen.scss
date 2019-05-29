@@ -117,20 +117,20 @@ $halfHeight: 50vh;
     }
 }
 
-@keyframes grow {
-    0% {
-        // transform: inherit;
-        transform: translate(-50% -50%);
-    }
+// @keyframes grow {
+//     0% {
+//         // transform: inherit;
+//         transform: translate(-50% -50%);
+//     }
 
-    75% {
-        width: 100vh;
-        height: 100vh;
-    }
+//     75% {
+//         width: 100vh;
+//         height: 100vh;
+//     }
 
-    100% {
-        border-radius: 0;
-        height: 100%;
-        width: 100%;
-    }
-}
+//     100% {
+//         border-radius: 0;
+//         height: 100%;
+//         width: 100%;
+//     }
+// }
