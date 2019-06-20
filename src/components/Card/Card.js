@@ -30,6 +30,20 @@ class Card extends Component {
             }, {
                 id: 2,
                 url: "./images/node-wallpaper.png",
+                h1: "Rain Or Shine",
+                h2: "A relaxing and beautiful way to check the weather",
+                p: "A React based weather application that combines a css landscape and a D3.js plot to convey meaningful current and future weather information in a artistic way.",
+                icons1: ["fab", "react"],
+                popover1: "React Framework",
+                icons2: ["fab", "node-js"],
+                popover2: "JavaScript/ES6",
+                icons3: ["fab", "sass"],
+                popover3: "Sass/SCSS",
+                link1: "https://github.com/tywi6665/Rain-or-Shine",
+                link2: "https://rain-or-shine6665.herokuapp.com/"
+            }, {
+                id: 3,
+                url: "./images/code-tag.jpg",
                 h1: "Clicky-Game",
                 h2: "A click game that boldly goes where no one has been before!",
                 p: "A React based game that tests the users memory skills and knowledge of Star Trek characters. Resistance to play this game is futile!",
@@ -41,20 +55,6 @@ class Card extends Component {
                 popover3: "Node.js/npm",
                 link1: "https://github.com/tywi6665/Clicky-Game2/",
                 link2: "https://clicky-game1993.herokuapp.com/"
-            }, {
-                id: 3,
-                url: "./images/code-tag.jpg",
-                h1: "Is This Legit",
-                h2: "Delving into the world of machine learning",
-                p: "The internet is awash with misleading articles and information. Ever wondered if the web page you're reading is trustworthy. There's an app for that!",
-                icons1: ["fas", "database"],
-                popover1: "Database: SQL with Sequelize",
-                icons2: ["fab", "npm"],
-                popover2: "Node.js/npm",
-                icons3: ["fas", "server"],
-                popover3: "Express Server",
-                link1: "https://github.com/tywi6665/is-this-legit/",
-                link2: "https://peaceful-savannah-96764.herokuapp.com/"
             }]
     }
 
