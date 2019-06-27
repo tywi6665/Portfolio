@@ -15,7 +15,7 @@ class Contact extends Component {
                             <li>tyletcole@gmail.com</li>
                         </a>
                         <li>•</li>
-                        <a href="https://github.com/tywi6665" target="_blank" rel="noopener noreferrer">
+                        <a href="https://tywi6665.github.io/" target="_blank" rel="noopener noreferrer">
                             <li>github.com/tywi6665</li>
                         </a>
                     </ul>
