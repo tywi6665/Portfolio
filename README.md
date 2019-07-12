@@ -1,1 +1,1 @@
-https://tywi6665.herokuapp.com/
+https://tywi.dev/
