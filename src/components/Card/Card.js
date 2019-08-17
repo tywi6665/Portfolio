@@ -44,17 +44,17 @@ class Card extends Component {
         }, {
             id: 3,
             url: "./images/code-tag.jpg",
-            h1: "Clicky-Game",
-            h2: "A click game that boldly goes where no one has been before!",
-            p: "A React based game that tests the users memory skills and knowledge of Star Trek characters. Resistance to play this game is futile!",
+            h1: "Out of This World",
+            h2: "There's no better way to explore the solar system",
+            p: "A React based application that uses D3.js to educate how amazing our corner of the universe is. Now go forth and explore!",
             icons1: ["fab", "react"],
             popover1: "React Framework",
             icons2: ["fab", "node-js"],
             popover2: "JavaScript/ES6",
             icons3: ["fab", "npm"],
             popover3: "Node.js/npm",
-            link1: "https://github.com/tywi6665/Clicky-Game2/",
-            link2: "https://clicky-game1993.herokuapp.com/"
+            link1: "https://github.com/tywi6665/Out-of-This-World",
+            link2: "https://out-of-this-world.herokuapp.com/"
         }]
     }
 
